@@ -6,9 +6,8 @@ import { Page } from '@/components/page/page'
 import {UserDetailedPage} from "@/components/userDetailedPage/userDetailedPage";
 
 
-const UserDetailed = async ({ params }: { params: { id: string } }) => {
+const UserDetailed = ({ params }: { params: { id: string } }) => {
 
-    const { id } = await params
 
     return (
         <div>
@@ -21,7 +20,7 @@ const UserDetailed = async ({ params }: { params: { id: string } }) => {
                 ]}
             />
             <Page>
-                <UserDetailedPage id={id} />
+                <UserDetailedPage id={params.id} />
             </Page>
         </div>
     )
