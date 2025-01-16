@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fabf16f-4247-4018-a2e8-66ed0fe8877f" name="Changes" comment="asd">
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
+    <list default="true" id="4fabf16f-4247-4018-a2e8-66ed0fe8877f" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/components/users/getUsers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/users/users.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/users.interface.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <updated>1737001387906</updated>
       <workItem from="1737001389228" duration="692000" />
       <workItem from="1737002530110" duration="138000" />
-      <workItem from="1737002687406" duration="2184000" />
+      <workItem from="1737002687406" duration="6273000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <option name="closed" value="true" />
@@ -90,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737007884860</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add loading">
+      <option name="closed" value="true" />
+      <created>1737009326130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737009326130</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix">
+      <option name="closed" value="true" />
+      <created>1737009776524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737009776525</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="add loading" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
