@@ -1,0 +1,17 @@
+.layout {
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content {
+  padding-inline: 48px;
+}
+
+.footer {
+  text-align: center;
+}

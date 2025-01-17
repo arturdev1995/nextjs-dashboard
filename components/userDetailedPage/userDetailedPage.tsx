@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {UserDTO} from "@/interfaces/users.interface";
+import {PostDTO} from "@/interfaces/users.interface";
 import {User} from "@/components/user/user";
 import {getUserData} from "@/api/getUser/getUser";
 
@@ -11,7 +11,7 @@ interface OrderDetailedPageProps {
 export async function UserDetailedPage(props: OrderDetailedPageProps) {
     const { id } = props
 
-    const data: UserDTO[] | undefined = await getUserData()
+    const data: PostDTO | undefined = await getUserData(id)
 
     return <User data={data} />
 }

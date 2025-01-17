@@ -2,12 +2,12 @@
 
 import { Card, Flex, Space, Typography } from 'antd'
 
-import {UserDTO} from "@/interfaces/users.interface";
+import {PostDTO} from "@/interfaces/users.interface";
 
 const { Title, Text } = Typography
 
 interface UserProps {
-    data: UserDTO[]
+    data: PostDTO
 }
 
 export const User = (props: UserProps) => {
@@ -17,10 +17,10 @@ export const User = (props: UserProps) => {
         <div>
             <Card>
                 <Flex vertical>
-                    <Title level={4}>id: {data[0].id}</Title>
+                    <Title level={4}>id: {data.id}</Title>
                     <Space>
                         <Text strong>name</Text>
-                        <Text>{data[0].name}</Text>
+                        <Text>{data.title}</Text>
                     </Space>
                 </Flex>
             </Card>

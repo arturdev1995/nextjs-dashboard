@@ -1,10 +1,11 @@
-import {UserDTO} from "@/interfaces/users.interface";
+import {PostDTO} from "@/interfaces/users.interface";
 
-export async function getUserData(): Promise<UserDTO[]> {
+export async function getUserData(id : string): Promise<PostDTO> {
     try {
-        const response = await fetch(`https://jsonplaceholder.typicode.com/users`, {
+        const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
             headers: {
                 'Content-Type': 'application/json',
+                Authorization: `Bearer ${process.env.NEXT_PUBLIC_API_TOKEN}`
             },
             cache: 'force-cache'
         })

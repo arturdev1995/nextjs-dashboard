@@ -1,6 +1,6 @@
-import {UserDTO} from "@/interfaces/users.interface";
+import {PostDTO} from "@/interfaces/users.interface";
 
-export async function getUsersData(id: string): Promise<UserDTO[]> {
+export async function getUsersData(id: string): Promise<PostDTO[]> {
     try {
         const response = await fetch(`https://jsonplaceholder.typicode.com/users`, {
             headers: {
